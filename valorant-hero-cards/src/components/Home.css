@@ -1,0 +1,92 @@
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.search-box {
+    background-color: white;
+    margin-top: 50px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Dikeyde ortalamak için */
+    max-width: 300px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid white; /* Border rengi ve genişliği */
+    border-radius: 30px;
+    margin-bottom: 50px;
+    background-color: #ff6a6a;
+  }
+ 
+  .search-box input {
+    color: #666666;
+    text-align: left; /* Metni ortalar */
+      /* Diğer stil özelliklerini ekleyebilirsiniz */
+    }
+
+  
+  /* İkon container'ı */
+  .icon {
+    color: black;
+    margin-right: 10px; /* İkon ile input arasında bir boşluk bırakmak için */
+  }
+  
+  /* İkonu hizalamak için gerekirse */
+  .icon svg {
+    margin-right: 10px; /* İkon ile input arasında bir boşluk bırakmak için */
+  }
+  
+  /* Input alanı */
+  input {
+    flex-grow: 7; /* Input alanının genişliğini arttırmak için */
+    border: none; /* Input alanına çerçeve koymamak için */
+    outline: none; /* Odaklandığında border oluşturmayı engellemek için */
+    background: transparent; /* Arkaplan rengini transparent yapmak için */
+    color: black; 
+  }
+
+  .character-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.onecharacter-card {
+  text-align: center;
+  width: 300px;
+  padding:20px;
+  border: 1px solid#E3C6C5;
+  margin:20px;
+  border-width: 5px;
+  border-radius: 11px;
+  background-color: #ff6a6a;
+}
+
+.abilities {
+  display: flex;
+  justify-content: space-around; 
+}
+
+
+.abilities-image {
+      width: 50px; 
+      height: auto; 
+      margin: 5px; 
+      margin-top:8px;
+      margin-bottom: 8px;
+    }
+
+
+
+
+
+  
+  
+  
+  
+  
